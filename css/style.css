@@ -97,6 +97,7 @@ header {
   }
   #modal-catalog .modal-dialog-light .modal-wrap {
     width: 100%;
+    height: auto !important;
   }
   #modal-catalog .modal-dialog-light .modal-content {
     width: 100%;
@@ -121,6 +122,26 @@ header {
   }
   #modal-catalog .modal-dialog-light .flex-grow-1 img {
     width: 100% !important;
+  }
+
+  #wood_board .close-button {
+    right: 5% !important;
+  }
+  #wood_board .modal-dialog-light {
+    width: 95vw !important;
+    min-height: auto !important;
+    margin-top: 100px !important;
+    z-index: 50 !important;
+  }
+  #wood_board .modal-dialog .modal-content {
+    min-width: 800px !important;
+    width: auto !important;
+    max-height: 455px !important;
+    overflow-y: scroll !important;
+    padding: 30px 0 0 30px !important;
+  }
+  #wood_board .modal-articles {
+    padding-bottom: 20px !important;
   }
 }
 @media (max-width: 900px) {
@@ -168,11 +189,18 @@ header {
     width: auto !important;
     max-height: 455px !important;
     overflow-y: scroll !important;
-    overflow-x: scroll !important;
     padding: 30px 0 0 30px !important;
   }
   #wood_board .modal-articles {
     padding-bottom: 20px !important;
+  }
+
+  #modal-catalog {
+    min-width: 320px !important;
+  }
+  #modal-catalog .close-button {
+    right: 5% !important;
+    top: 4%;
   }
 }
 @media (max-width: 790px) {
@@ -300,6 +328,44 @@ header {
   #section-10 #quiz-4 .quiz_item-form input {
     margin-bottom: 30px;
   }
+
+  #wood_board {
+    min-width: 320px !important;
+  }
+  #wood_board .close-button {
+    right: 5% !important;
+  }
+  #wood_board .modal-dialog-light {
+    min-width: 320px;
+  }
+  #wood_board .modal-dialog-light .modal-content {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-height: 455px !important;
+    overflow-y: scroll !important;
+    padding: 30px 20px !important;
+  }
+  #wood_board .modal-dialog-light .modal-content .container-flex .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #wood_board .modal-dialog-light .modal-content .container-flex .row .col-6 {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+  #wood_board .modal-dialog-light .modal-content .container-flex .row .col-6 .modal-description {
+    padding: 0 10px;
+  }
+  #wood_board .modal-dialog-light .modal-content .container-flex .row .col-6 .modal-description h2 {
+    text-align: center;
+  }
+  #wood_board .modal-articles {
+    padding-bottom: 20px !important;
+  }
+
+  #modal-catalog .close-button {
+    top: 2%;
+  }
 }
 @media (max-width: 730px) {
   #section-1 .offer-1-text-wrap {
@@ -383,12 +449,12 @@ header {
   }
 
   #modal-catalog .close-button {
-    right: 5% !important;
-    top: 7%;
+    top: 1%;
   }
   #modal-catalog .modal-dialog-light {
     width: auto !important;
     max-width: 95vw !important;
+    overflow-y: scroll !important;
   }
   #modal-catalog .modal-dialog-light .modal-wrap {
     width: 100%;
@@ -474,7 +540,7 @@ header {
 
   #modal-catalog .close-button {
     right: 5% !important;
-    top: 7%;
+    top: 2%;
   }
   #modal-catalog .modal-dialog-light .modal-head-h {
     font-size: 20px;
@@ -545,6 +611,10 @@ header {
   #modal-catalog {
     min-width: 320px !important;
   }
+  #modal-catalog .close-button {
+    right: 5% !important;
+    top: 2%;
+  }
   #modal-catalog .modal-dialog-light {
     width: 100% !important;
     min-width: 320px !important;
@@ -558,5 +628,15 @@ header {
   #modal-catalog .footer_show_more_text {
     font-size: 14px;
     bottom: 30%;
+  }
+
+  #wood_board .modal-dialog-light .modal-content {
+    padding: 20px 10px !important;
+  }
+  #wood_board .modal-dialog-light .modal-content .container-flex .row .col-6 .custom-article {
+    width: 100%;
+  }
+  #wood_board .modal-articles {
+    padding-bottom: 20px !important;
   }
 }

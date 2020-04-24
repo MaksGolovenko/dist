@@ -2,6 +2,10 @@ body {
   min-width: 320px !important;
 }
 
+header {
+  min-width: 320px !important;
+}
+
 .header__burger {
   display: none;
   position: relative;
@@ -47,12 +51,6 @@ body {
   flex: 1 0 auto !important;
 }
 
-.quiz_mask .quiz_item {
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: space-between !important;
-}
-
 @media (max-width: 1000px) {
   .row-media {
     padding-bottom: 20px !important;
@@ -89,6 +87,41 @@ body {
   #section-2 .section-2-wood .section-2-header {
     width: 100%;
   }
+
+  #modal-catalog .close-button {
+    right: 5% !important;
+  }
+  #modal-catalog .modal-dialog-light {
+    width: auto !important;
+    max-width: 90vw !important;
+  }
+  #modal-catalog .modal-dialog-light .modal-wrap {
+    width: 100%;
+  }
+  #modal-catalog .modal-dialog-light .modal-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+    height: auto;
+  }
+  #modal-catalog .modal-dialog-light .modal-content > div {
+    width: 100%;
+  }
+  #modal-catalog .modal-dialog-light .modal-content .pt-3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #modal-catalog .modal-dialog-light .modal-content .pt-3 form > div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #modal-catalog .modal-dialog-light .modal-content .pt-3 form > div input {
+    margin-bottom: 15px;
+  }
+  #modal-catalog .modal-dialog-light .flex-grow-1 img {
+    width: 100% !important;
+  }
 }
 @media (max-width: 900px) {
   #section-2 .section-2__header {
@@ -120,6 +153,27 @@ body {
   #section-8 .section-8-head__media {
     text-align: center;
   }
+
+  #wood_board .close-button {
+    right: 5% !important;
+  }
+  #wood_board .modal-dialog-light {
+    width: 95vw !important;
+    min-height: auto !important;
+    margin-top: 100px !important;
+    z-index: 50 !important;
+  }
+  #wood_board .modal-dialog .modal-content {
+    min-width: 800px !important;
+    width: auto !important;
+    max-height: 455px !important;
+    overflow-y: scroll !important;
+    overflow-x: scroll !important;
+    padding: 30px 0 0 30px !important;
+  }
+  #wood_board .modal-articles {
+    padding-bottom: 20px !important;
+  }
 }
 @media (max-width: 790px) {
   header {
@@ -135,6 +189,7 @@ body {
     z-index: 100;
     display: flex;
     min-height: 60px;
+    padding-right: 10px;
   }
   header .number__media {
     display: block;
@@ -180,7 +235,7 @@ body {
   }
 
   #section-1 {
-    padding-top: 100px;
+    padding-top: 30px;
   }
   #section-1 .align-items-end {
     flex-wrap: wrap;
@@ -193,6 +248,12 @@ body {
   }
   #section-1 .align-items-end .logo-info-panel {
     margin-top: 25px;
+  }
+  #section-1 .align-items-end .logo-info-panel .logo-information {
+    margin-bottom: 20px;
+  }
+  #section-1 .align-items-end .logo-info-panel .logo-phone {
+    display: none;
   }
   #section-1 .row-media .offer-1-text-wrap {
     min-height: auto;
@@ -288,6 +349,13 @@ body {
     font-size: 18px !important;
   }
 
+  #section-3 {
+    min-height: auto;
+  }
+  #section-3 .section-3-wrap {
+    padding-top: 33px;
+    padding-bottom: 44px;
+  }
   #section-3 .section-3-diff span {
     font-size: 25px;
   }
@@ -313,8 +381,23 @@ body {
     width: 100%;
     font-size: 14px;
   }
+
+  #modal-catalog .close-button {
+    right: 5% !important;
+    top: 7%;
+  }
+  #modal-catalog .modal-dialog-light {
+    width: auto !important;
+    max-width: 95vw !important;
+  }
+  #modal-catalog .modal-dialog-light .modal-wrap {
+    width: 100%;
+  }
 }
 @media (max-width: 555px) {
+  #section-4 .section-4-wrapper {
+    padding-top: 50px;
+  }
   #section-4 .seection-4-header {
     padding: 0 10px;
   }
@@ -388,10 +471,33 @@ body {
   .footer-wrapper .row .footer-side-col-r {
     order: 3;
   }
+
+  #modal-catalog .close-button {
+    right: 5% !important;
+    top: 7%;
+  }
+  #modal-catalog .modal-dialog-light .modal-head-h {
+    font-size: 20px;
+  }
+  #modal-catalog .modal-dialog-light .modal-head-t {
+    font-size: 17px !important;
+  }
+  #modal-catalog .footer_show_more_text {
+    font-size: 14px;
+    bottom: 30%;
+  }
 }
 @media (max-width: 420px) {
   #section-3 .section-3-diff span {
     font-size: 15px;
+  }
+  #section-3 .section-3-wrap {
+    padding-top: 23px;
+    padding-bottom: 34px;
+  }
+  #section-3 .section-3-wrap h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
   }
 
   #section-6 .section-6-book-image {
@@ -434,5 +540,23 @@ body {
   }
   #section-6 .section-6-book-image {
     height: 1000px !important;
+  }
+
+  #modal-catalog {
+    min-width: 320px !important;
+  }
+  #modal-catalog .modal-dialog-light {
+    width: 100% !important;
+    min-width: 320px !important;
+  }
+  #modal-catalog .modal-dialog-light .modal-content {
+    padding: 30px 15px;
+  }
+  #modal-catalog .btn-wrap {
+    width: 90%;
+  }
+  #modal-catalog .footer_show_more_text {
+    font-size: 14px;
+    bottom: 30%;
   }
 }

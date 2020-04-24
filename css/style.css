@@ -263,7 +263,7 @@ header {
   }
 
   #section-1 {
-    padding-top: 30px;
+    padding-top: 18px;
   }
   #section-1 .align-items-end {
     flex-wrap: wrap;
@@ -275,7 +275,7 @@ header {
     text-align: center;
   }
   #section-1 .align-items-end .logo-info-panel {
-    margin-top: 25px;
+    margin-top: 18px;
   }
   #section-1 .align-items-end .logo-info-panel .logo-information {
     margin-bottom: 20px;
@@ -481,6 +481,19 @@ header {
   #section-6 .section-6-book-image {
     height: 800px !important;
   }
+
+  #section-10 .section-10-header h1 {
+    font-size: 25px !important;
+  }
+  #section-10 .section-10-header span {
+    font-size: 20px;
+  }
+  #section-10 .section-10-price-text {
+    font-size: 16px;
+  }
+  #section-10 .styled_radiobox .text {
+    font-size: 16px;
+  }
 }
 @media (max-width: 500px) {
   input {
@@ -503,12 +516,31 @@ header {
     height: 850px !important;
   }
 
+  #section-10 {
+    padding-top: 80px !important;
+  }
   #section-10 .quiz_item-form input:first-child {
     margin-bottom: 20px;
   }
   #section-10 .section-10-btn .btn {
     width: 90%;
     font-size: 12px;
+  }
+  #section-10 .quiz_item {
+    padding-bottom: 80px !important;
+  }
+  #section-10 .section-10-price-text {
+    padding: 15px 0 !important;
+    font-size: 16px;
+  }
+  #section-10 .section-10-header span {
+    font-size: 18px;
+  }
+  #section-10 .quiz_item-form input {
+    margin: 0 0 18px !important;
+  }
+  #section-10 .styled_radiobox label {
+    margin: 10px 0;
   }
 
   #section-11 .section-11-how-find-us {
@@ -586,6 +618,22 @@ header {
     width: 95% !important;
   }
 
+  #section-1 .logo {
+    margin: 0 0 4px !important;
+  }
+  #section-1 .logo img {
+    width: 80%;
+    height: 80%;
+  }
+  #section-1 .mt-3 {
+    margin-bottom: 25px !important;
+  }
+  #section-1 .logo-info-panel {
+    margin-top: 6px !important;
+  }
+  #section-1 .logo-info-panel .logo-information {
+    margin-bottom: 8px !important;
+  }
   #section-1 .logo-wrap {
     flex-direction: column;
     align-items: center;
@@ -595,6 +643,16 @@ header {
   }
   #section-1 .offer-1-form {
     padding: 0 5px;
+  }
+  #section-1 .offer-1-text-wrap {
+    padding: 15px 10px !important;
+    margin-bottom: 18px;
+  }
+  #section-1 .offer-1-text-wrap h1.offer-1-h {
+    font-size: 20px !important;
+  }
+  #section-1 .offer-1-text-wrap .offer-1-descr {
+    font-size: 16px !important;
   }
 
   #section-6 .variant-6-bottom-btn {
@@ -606,6 +664,26 @@ header {
   }
   #section-6 .section-6-book-image {
     height: 1000px !important;
+  }
+
+  #section-10 {
+    padding-top: 50px !important;
+  }
+  #section-10 .quiz_item {
+    padding-bottom: 50px !important;
+  }
+  #section-10 .section-10-price-text {
+    padding: 15px 0 !important;
+    font-size: 14px;
+  }
+  #section-10 .section-10-header span {
+    font-size: 16px;
+  }
+  #section-10 .quiz_item-form input {
+    margin: 0 0 10px !important;
+  }
+  #section-10 .styled_radiobox label {
+    margin: 3px 0;
   }
 
   #modal-catalog {
